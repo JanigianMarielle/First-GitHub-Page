@@ -1,6 +1,7 @@
 h1{
   color: white;
   background: grey;
+   text-align: center;
 }
 
 body{
@@ -8,10 +9,6 @@ body{
   
   .p1 {
 font-family: "Times New Roman", serif;
-  }
-
-  h1 {
-    text-align: center;
   }
 
   div{
