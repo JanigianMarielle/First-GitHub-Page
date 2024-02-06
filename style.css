@@ -8,7 +8,7 @@ h1{
 body{
   background: pink;
   
-  .p1 {
+  .p {
 font-family: "Courier New", monospace;
     font-weight:  bold;
   }
@@ -19,6 +19,7 @@ font-family: "Courier New", monospace;
   }
 
 img {
+  border-radius: 10 px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -28,5 +29,18 @@ img {
 background-color: blue;
     padding: 40 px;
   }
+
+  head {
+text-decoration-line: underline;
+    text-shadow: 2 px, 2 px, 5 px pink;
+  }
+
+  #grad1 {
+    heght: 500 px;
+background-color: pink
+    background-image: linear-gradient(pink,purple);
+  }
+
+  <div id = "grad1"></div>
   
 }
