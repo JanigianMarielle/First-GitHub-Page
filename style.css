@@ -19,6 +19,8 @@ font-family: "Courier New", monospace;
   }
 
 img {
+  display: block;
+  margin: auto;
   border-radius: 10 px;
   display: block;
   margin-left: auto;
@@ -41,6 +43,32 @@ background-color: pink
     background-image: linear-gradient(pink,purple);
   }
 
-  <div id = "grad1"></div>
+@keyframes colors {
+ 0 % {background-color: pink;}
+ 25 % {background-color: purple;}
+ 50 % {background-color: blue;}
+ 75 % {background-color: green;}
+ 100 %  {background-color: yellow;} 
+}
+
+  #myDIV {
+color: orange;
+    animation: mymove 8 s infinite;
+  }
+
+   @keyframes mymove {
+50 % {color: pink;}
+  }
+
+  #myDIV {
+width: 300 px;
+  height: 200 px;
+    outline: 5 px solid pink;
+    animation: mymove 8 s infinite;
+  }
+
+ @keyframes mymove {
+50 % {outline-color: orange;}
+ }
   
 }
