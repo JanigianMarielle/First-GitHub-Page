@@ -8,7 +8,7 @@ h1{
 body{
   background: pink;
   
-  .p {
+  p {
 font-family: "Courier New", monospace;
     font-weight:  bold;
   }
