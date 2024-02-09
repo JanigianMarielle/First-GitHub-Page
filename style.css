@@ -16,6 +16,7 @@ font-family: "Lucida Console", "Courier New", monospace;
   #textDIV {
     border: 5px black;
     padding: 10px 50px 40px 20px;
+      background-color: lightblue;
   }
 
 img {
