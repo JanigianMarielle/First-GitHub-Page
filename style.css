@@ -2,7 +2,7 @@ h1{
   color: white;
   background: grey;
    text-align: center;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px 5px red;
 }
 
 body{
