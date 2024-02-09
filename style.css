@@ -14,8 +14,9 @@ font-family: "Lucida Console", "Courier New", monospace;
   }
 
   div {
-    border: 5px;
-    padding: 10px;
+    border: 5px black;
+    padding: 10px 50px 40px 20px;
+    background-color: lightblue;
   }
 
 img {
