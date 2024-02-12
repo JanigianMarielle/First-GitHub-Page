@@ -49,7 +49,7 @@ from {background-color: pink;}
   #colorDIV {
 width: 1500px;
   height: 100px;
-  background-color: red;
+  background-color: pink;
   animation-name: colors;
   animation-duration: 4s;
   }
