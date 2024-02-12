@@ -42,7 +42,7 @@ background-color: pink
   }
 
 @keyframes colors {
-from {background-color: lightblue;}
+from {background-color: lightgreen;}
   to {background-color: lightyellow;}
 }
 
