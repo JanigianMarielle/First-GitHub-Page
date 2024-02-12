@@ -19,6 +19,14 @@ font-family: "Lucida Console", "Courier New", monospace;
       background-color: lightblue;
   }
 
+      #animationDIV {
+    width: 700 px;
+    height: 100 px;
+    background-color: yellow;
+    animation-name: colors;
+    animation-duration: 5 s;
+}
+
 img {
  display: block;
   margin-left: auto;
