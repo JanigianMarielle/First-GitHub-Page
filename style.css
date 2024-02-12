@@ -26,7 +26,7 @@ img {
 }
 
   h3 {
-background-color: yellow;
+background-color: white;
     padding: 40px;
   }
 
@@ -42,12 +42,12 @@ background-color: pink
   }
 
 @keyframes colors {
-from {background-color: red;}
-  to {background-color: yellow;}
+from {background-color: pink;}
+  to {background-color: orange;}
 }
 
   #colorDIV {
-width: 1600px;
+width: 1500px;
   height: 100px;
   background-color: red;
   animation-name: colors;
