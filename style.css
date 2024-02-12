@@ -5,6 +5,12 @@ h1{
   text-shadow: 2px 2px 5px yellow;
 }
 
+#listDIV {
+    border: 5px black;
+    padding: 10px 50px 40px 20px;
+      background: lightblue;
+  }
+
 body{
   background: pink;
   
@@ -13,11 +19,7 @@ font-family: "Lucida Console", "Courier New", monospace;
     font-weight:  bold;
   }
 
-  #listDIV {
-    border: 5px black;
-    padding: 10px 50px 40px 20px;
-      background: lightblue;
-  }
+  
 
       #animationDIV {
     width: 700 px;
