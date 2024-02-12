@@ -1,5 +1,4 @@
 h1{
-  color: white;
   background: grey;
    text-align: center;
   text-shadow: 2px 2px 5px yellow;
@@ -47,33 +46,27 @@ text-decoration-line: underline;
   }
 
   #grad1 {
-    heght: 500px;
+    height: 500px;
 background-color: pink
     background-image: linear-gradient(pink,purple);
   }
 
 @keyframes colors {
- 0 % {background-color: pink;}
- 25 % {background-color: purple;}
- 50 % {background-color: blue;}
- 75 % {background-color: green;}
- 100 %  {background-color: yellow;} 
+from {background-color: red;}
+  to {background-color: yellow;}
 }
 
-  #myDIV {
-color: orange;
-    animation: mymove 8 s infinite;
-  }
 
    @keyframes mymove {
 50 % {color: pink;}
   }
 
-  #myDIV {
-width: 300px;
-  height: 200px;
-    outline: 5px solid pink;
-    animation: mymove 8 s infinite;
+  #colorDIV {
+width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: colors;
+  animation-duration: 4s;
   }
 
  @keyframes mymove {
