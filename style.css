@@ -26,7 +26,7 @@ img {
 }
 
   h3 {
-background-color: light yellow;
+background-color: yellow;
     padding: 40px;
   }
 
@@ -46,19 +46,10 @@ from {background-color: red;}
   to {background-color: yellow;}
 }
 
-
-   @keyframes mymove {
-50 % {color: pink;}
-  }
-
   #colorDIV {
-width: 700px;
+width: 1400px;
   height: 100px;
   background-color: red;
   animation-name: colors;
   animation-duration: 4s;
   }
-
- @keyframes mymove {
-50 % {outline-color: orange;}
- }
