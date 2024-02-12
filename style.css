@@ -42,8 +42,8 @@ background-color: pink
   }
 
 @keyframes colors {
-from {background-color: lightgreen;}
-  to {background-color: lightyellow;}
+from {background-color: lightyellow;}
+  to {background-color: lightgreen;}
 }
 
   #colorDIV {
