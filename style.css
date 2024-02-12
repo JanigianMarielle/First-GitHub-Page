@@ -42,14 +42,14 @@ background-color: pink
   }
 
 @keyframes colors {
-from {background-color: lightgreen;}
+from {background-color: lightpurple;}
   to {background-color: lightyellow;}
 }
 
   #colorDIV {
 width: 1450px;
   height: 100px;
-  background-color: lightyellow;
+  background-color: lightpurple;
   animation-name: colors;
   animation-duration: 4s;
   }
