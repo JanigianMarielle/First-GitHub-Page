@@ -13,6 +13,7 @@ h1{
 
 body{
   background: pink;
+}
   
   p {
 font-family: "Lucida Console", "Courier New", monospace;
@@ -78,5 +79,3 @@ width: 300px;
  @keyframes mymove {
 50 % {outline-color: orange;}
  }
-  
-}
